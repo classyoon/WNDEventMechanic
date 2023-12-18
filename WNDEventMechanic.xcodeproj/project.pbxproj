@@ -15,6 +15,9 @@
 		CABCE65F2B2FBB990006040C /* WNDEventMechanicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABCE65E2B2FBB990006040C /* WNDEventMechanicUITests.swift */; };
 		CABCE6612B2FBB990006040C /* WNDEventMechanicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABCE6602B2FBB990006040C /* WNDEventMechanicUITestsLaunchTests.swift */; };
 		CABCE66E2B2FBBA30006040C /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABCE66D2B2FBBA30006040C /* Condition.swift */; };
+		CABCE6702B2FCC070006040C /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABCE66F2B2FCC070006040C /* Dependencies.swift */; };
+		CABCE6722B2FCC140006040C /* PlayerEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABCE6712B2FCC140006040C /* PlayerEvents.swift */; };
+		CABCE6742B2FCC4F0006040C /* EventQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABCE6732B2FCC4F0006040C /* EventQueueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		CABCE65E2B2FBB990006040C /* WNDEventMechanicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WNDEventMechanicUITests.swift; sourceTree = "<group>"; };
 		CABCE6602B2FBB990006040C /* WNDEventMechanicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WNDEventMechanicUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CABCE66D2B2FBBA30006040C /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		CABCE66F2B2FCC070006040C /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		CABCE6712B2FCC140006040C /* PlayerEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEvents.swift; sourceTree = "<group>"; };
+		CABCE6732B2FCC4F0006040C /* EventQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventQueueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 				CABCE6432B2FBB980006040C /* WNDEventMechanicApp.swift */,
 				CABCE6452B2FBB980006040C /* ContentView.swift */,
 				CABCE66D2B2FBBA30006040C /* Condition.swift */,
+				CABCE6732B2FCC4F0006040C /* EventQueueView.swift */,
+				CABCE66F2B2FCC070006040C /* Dependencies.swift */,
+				CABCE6712B2FCC140006040C /* PlayerEvents.swift */,
 				CABCE6472B2FBB990006040C /* Assets.xcassets */,
 				CABCE6492B2FBB990006040C /* Preview Content */,
 			);
@@ -260,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABCE6702B2FCC070006040C /* Dependencies.swift in Sources */,
+				CABCE6742B2FCC4F0006040C /* EventQueueView.swift in Sources */,
 				CABCE6462B2FBB980006040C /* ContentView.swift in Sources */,
 				CABCE66E2B2FBBA30006040C /* Condition.swift in Sources */,
+				CABCE6722B2FCC140006040C /* PlayerEvents.swift in Sources */,
 				CABCE6442B2FBB980006040C /* WNDEventMechanicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
